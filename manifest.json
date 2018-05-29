@@ -1,0 +1,11 @@
+{
+  "name": "Save Your Tab",
+  "manifest_version": 1.0,
+  "version": "1.0",
+  "author": "Thien Phung",
+  "description": "Save your open tabs in just one click and reopen them whenever you want.",
+  "icons": {
+    "16": "img/icon-16.png",
+    "128": "img/icon-128.png"
+  }
+ }
