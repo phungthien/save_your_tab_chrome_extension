@@ -1,11 +1,33 @@
 {
+  "manifest_version": 2,
   "name": "Save Your Tab",
-  "manifest_version": 1.0,
   "version": "1.0",
   "author": "Thien Phung",
   "description": "Save your open tabs in just one click and reopen them whenever you want.",
   "icons": {
     "16": "img/icon-16.png",
     "128": "img/icon-128.png"
-  }
+  },
+  "background": {
+    "scripts": ["js/background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_icon": "img/icon-32.png",
+    "default_popup": "index.html"
+  },
+  "commands": {
+    "save-tab": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+S",
+        "mac": "Command+Shift+S"
+      },
+      "description": "Save tab by keyboard command",
+      "global": true
+    }
+  },
+  "permissions": [
+    "tabs",
+    "storage"
+  ]
  }
