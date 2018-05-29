@@ -1,1 +1,1 @@
-# save_your_tab_chrome_extension
+# Save Your Tab (Chrome Extension)
